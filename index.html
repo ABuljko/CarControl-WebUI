@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Control Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 36px;
+            color: #333;
+        }
+
+        button {
+            margin: 15px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Car Control Panel</h1>
+    <button onclick="fetch('/forward')">Forward</button>
+    <button onclick="fetch('/left')">Left</button>
+    <button onclick="fetch('/right')">Right</button>
+    <button onclick="fetch('/stop')">Stop</button>
+    <button onclick="fetch('/mode')">Mode</button>
+
+    <div>
+        <iframe src="https://giphy.com/embed/Nda9GjMZ6BQpa" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a></a>
+    </div>
+    
+</body>
+</html>
