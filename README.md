@@ -1,29 +1,22 @@
-# 🚗 CarControl-WebUI
+# CarControl-WebUI
 
-A **web-based control panel** designed for remotely controlling a car using simple button commands. This project serves as an interactive interface for managing vehicle movements via a web browser.
+CarControl-WebUI is a web-based control panel that allows users to control a vehicle remotely using button-based commands. The project provides a simple yet effective interface to send movement commands, which can be processed by a backend system or microcontroller such as an Arduino or Raspberry Pi.
 
-## 📌 Features
-- 🎨 **Clean & Minimal UI** – Simple yet effective design.
-- ⚡ **Fetch API Integration** – Sends movement commands to a backend.
-- 🎬 **Live GIF Integration** – A fun, interactive element.
-- 🖥️ **Cross-browser Support** – Works on all modern web browsers.
-- 📱 **Responsive Design** – Adaptable for mobile and desktop users.
+## Features
+- Clean and minimalist user interface for ease of use.
+- Fetch API integration to send movement commands to a backend.
+- Embedded GIF for a more interactive user experience.
+- Cross-browser compatibility, ensuring it works on all modern browsers.
+- Responsive design, making it accessible on both desktop and mobile devices.
 
-## 📷 Preview
+## Project Preview
+This project provides a web interface where users can control a car using the following commands: forward, left, right, stop, and mode change.
+
 ![Car Control Panel](https://via.placeholder.com/800x400?text=Car+Control+Panel+Preview)
 
----
-
-## 🛠️ Technologies Used
-- **HTML** – For page structure.
-- **CSS** – For styling and UI enhancements.
-- **JavaScript (Fetch API)** – Handles control commands.
-- **Backend Support (Optional)** – Can be integrated with a microcontroller (e.g., Arduino, Raspberry Pi).
-
----
-
-## 🚀 Getting Started
-
-### 🔹 1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/CarControl-WebUI.git
+## Technologies Used
+This project utilizes the following technologies:
+- **HTML** for structuring the webpage.
+- **CSS** for styling and layout enhancements.
+- **JavaScript (Fetch API)** for handling button actions and sending requests.
+- **Backend Support (Optional)** for communication with a microcontroller or server.
