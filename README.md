@@ -12,7 +12,7 @@ CarControl-WebUI is a web-based control panel that allows users to control a veh
 ## Project Preview
 This project provides a web interface where users can control a car using the following commands: forward, left, right, stop, and mode change.
 
-![Car Control Panel](https://via.placeholder.com/800x400?text=Car+Control+Panel+Preview)
+[Car Control Panel](https://abuljko.github.io/CarControl-WebUI/)
 
 ## Technologies Used
 This project utilizes the following technologies:
